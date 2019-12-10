@@ -85,7 +85,7 @@ def check_angle():
         return check_angle()
     else:
         return check_parameters
-    
+
 check_parameters = check_angle()
 # get back the coordinates from the initial parameters and waypoints coordinates
 starting_point = waypoints[check_parameters[0]]
